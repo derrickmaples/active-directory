@@ -25,7 +25,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Create a Domain Controller Virtual Machine
   - Create a Client Virtual Machine (Make sure to assign to the same region as the Domain Controller) 
   - Set NIC private IP Address of the Domain Controller to Static
-  - Set DNS settings of the Client to the private IP Address of the Domain Controller
+  - Set DNS Server of the Client to the private IP Address of the Domain Controller
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
@@ -66,6 +66,36 @@ Set NIC private IP Address of the Domain Controller to Static. This ensure the p
 
 
 ![4-2](https://github.com/user-attachments/assets/5ec259b3-892e-49b7-8394-ded6a4c86d23)
+
+<p>
+Set DNS Server of the Client to the private IP Address of the Domain Controller
+</p>
+<br />
+
+
+<p>
+Sample line
+</p>
+<br />
+
+
+<p>
+Sample line
+</p>
+<br />
+
+
+<p>
+Sample line
+</p>
+<br />
+
+
+<p>
+Sample line
+</p>
+<br />
+
 
 <p>
 Sample line
