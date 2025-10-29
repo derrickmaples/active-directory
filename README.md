@@ -20,7 +20,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
+- Setup Domain Controller in Azure
+  - Create a Resourse Group, Virtual Network and Subnet
+  - Create a Domain Controller Virtual Machine 
+  
 - Step 2
 - Step 3
 - Step 4
