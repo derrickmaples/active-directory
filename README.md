@@ -73,6 +73,10 @@ Set DNS Server of the Client to the private IP Address of the Domain Controller
 <br />
 
 
+![4-3](https://github.com/user-attachments/assets/8d8f5256-58e3-4f37-82ea-eaf83a7d7050)
+![4-3a](https://github.com/user-attachments/assets/d99a8047-bdb7-4306-97ed-753e6b3e7732)
+
+
 <p>
 Sample line
 </p>
