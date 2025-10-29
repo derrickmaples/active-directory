@@ -24,16 +24,40 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Create a Resourse Group, Virtual Network and Subnet
   - Create a Domain Controller Virtual Machine
   - Create a Client Virtual Machine (Make sure to assign to the same region as the Domain Controller) 
-- Set NIC of Domain Controller to static
-- Step 3
+  - Set NIC private IPaddress of the Domain Controller to static
+  - Set DNS settings of the Client to the private IP Address of the Domain Controller
 - Step 4
 
 <h2>Deployment and Configuration Steps</h2>
 
 
 <p>
-Lorem ipsum dolor sit amet
+Create a Resourse Group, Virtual Network and Subnet
 </p>
 <br />
 
 
+![4-1a](https://github.com/user-attachments/assets/d1086edd-4957-4def-8ab3-9710f653a009)
+![4-1](https://github.com/user-attachments/assets/449425f9-4e98-48f5-8cc0-fc1778b4bb81)
+
+
+<p>
+Create a Resourse Group, Virtual Network and Subnet
+</p>
+<br />
+
+<p>
+Create a Resourse Group, Virtual Network and Subnet
+</p>
+<br />
+
+<p>
+Create a Resourse Group, Virtual Network and Subnet
+</p>
+<br />
+
+
+<p>
+Sample line
+</p>
+<br />
