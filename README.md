@@ -22,9 +22,9 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 - Setup Domain Controller in Azure
   - Create a Resourse Group, Virtual Network and Subnet
-  - Create a Domain Controller Virtual Machine 
-  
-- Step 2
+  - Create a Domain Controller Virtual Machine
+  - Create a Client Virtual Machine (Make sure to assign to the same region as the Domain Controller) 
+- Set NIC of Domain Controller to static
 - Step 3
 - Step 4
 
