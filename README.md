@@ -24,7 +24,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
   - Create a Resourse Group, Virtual Network and Subnet
   - Create a Domain Controller Virtual Machine
   - Create a Client Virtual Machine (Make sure to assign to the same region as the Domain Controller) 
-  - Set NIC private IPaddress of the Domain Controller to static
+  - Set NIC private IP Address of the Domain Controller to Static
   - Set DNS settings of the Client to the private IP Address of the Domain Controller
 - Step 4
 
@@ -42,20 +42,30 @@ Create a Resourse Group, Virtual Network and Subnet
 
 
 <p>
-Create a Resourse Group, Virtual Network and Subnet
+Create a Domain Controller Virtual Machine with the Winders Server 2022 operating system.
 </p>
 <br />
+
+
+![4-1b](https://github.com/user-attachments/assets/3db79072-1976-4b01-bbde-e65b9f0a2db2)
+
 
 <p>
-Create a Resourse Group, Virtual Network and Subnet
+Create a Client Virtual Machine (Make sure to assign to the same region as the Domain Controller)
 </p>
 <br />
+
+
+![4-1c](https://github.com/user-attachments/assets/dfa28b68-a930-4acf-a5c1-b5c840d1bef8)
+
 
 <p>
-Create a Resourse Group, Virtual Network and Subnet
+Set NIC private IP Address of the Domain Controller to Static. This ensure the private IP address never changes. 
 </p>
 <br />
 
+
+![4-2](https://github.com/user-attachments/assets/5ec259b3-892e-49b7-8394-ded6a4c86d23)
 
 <p>
 Sample line
