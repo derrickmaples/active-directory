@@ -21,12 +21,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <h2>High-Level Deployment and Configuration Steps</h2>
 
 - Setup Domain Controller in Azure
-  - Create a Resourse Group, Virtual Network and Subnet
-  - Create a Domain Controller Virtual Machine
-  - Create a Client Virtual Machine (Make sure to assign to the same region as the Domain Controller) 
-  - Set NIC private IP Address of the Domain Controller to Static
-  - Set DNS Server of the Client to the private IP Address of the Domain Controller
-- Step 4
+- Create a Resourse Group, Virtual Network and Subnet
+- Create a Domain Controller Virtual Machine
+- Create a Client Virtual Machine (Make sure to assign to the same region as the Domain Controller) 
+- Set NIC private IP Address of the Domain Controller to Static
+- Set DNS Server of the Client to the private IP Address of the Domain Controller
+- Ping the IP Address of the Domain Controller from the Virtual Machine of the CLient
+- Verify the DNS server
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -78,27 +79,24 @@ Set DNS Server of the Client to the private IP Address of the Domain Controller
 
 
 <p>
-Sample line
+Open Powershell and ping the IP Address of the Domain Controller from the Virtual Machine of the CLient. This ensures the machines are connected. 
 </p>
 <br />
+
+
+![4-4](https://github.com/user-attachments/assets/e54ca6da-6981-4f0c-a99e-489836c3509c)
 
 
 <p>
-Sample line
+Run ipconfig/all to verify the DNS server matches the Domain Controller
 </p>
 <br />
 
 
-<p>
-Sample line
-</p>
-<br />
+![4-5](https://github.com/user-attachments/assets/cb592a19-5f48-4758-8b8a-e5bba816fa6c)
 
 
-<p>
-Sample line
-</p>
-<br />
+<h2>Success!</h2>
 
 
 <p>
