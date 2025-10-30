@@ -64,7 +64,7 @@ Create a Client Virtual Machine (Make sure to assign to the same region as the D
 
 
 <p>
-Set NIC private IP Address of the Domain Controller to Static. This ensures the private IP address never changes. 
+Set the NIC (Network Interface Card) private IP Address of the Domain Controller to Static. This ensures the private IP address never changes. 
 </p>
 <br />
 
@@ -72,7 +72,7 @@ Set NIC private IP Address of the Domain Controller to Static. This ensures the 
 ![4-2](https://github.com/user-attachments/assets/5ec259b3-892e-49b7-8394-ded6a4c86d23)
 
 <p>
-Set DNS Server of the Client to the private IP Address of the Domain Controller
+Set DNS Server of the Client to the private IP Address of the Domain Controller. DNS is critical for Active Directory because it allows domain controllers and clients to locate each other using domain names rather than IP addresses.
 </p>
 <br />
 
@@ -100,7 +100,7 @@ Run ipconfig/all to verify the DNS server matches the Domain Controller.
 
 
 <p>
-Install Active Directory Domain Services
+Install Active Directory Domain Services in the Add Roles and Features wizard. Promoting a server to a domain controller is necessary because it configures the server to manage and store the directory data and handle authentication and authorization within the domain. Without this promotion, the server would not be able to perform the essential functions of a domain controller, such as managing user logins and enforcing security policies.
 </p>
 <br />
 
@@ -109,7 +109,7 @@ Install Active Directory Domain Services
 
 
 <p>
-Promote the Server to a Domain Controller
+Promote the Server to a Domain Controller by creating a new forest. A forest represents the security boundary that manages users, computers, and other resources. For the purposes of this project, set the domain as "www.mydomain.com".
 </p>
 <br />
 
