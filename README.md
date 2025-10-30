@@ -116,34 +116,5 @@ Promote the Server to a Domain Controller
 
 ![4-7](https://github.com/user-attachments/assets/75a20f68-2d3c-42a9-b787-5cab6943175e)
 
-<p>
-Sample line
-</p>
-<br />
-
-
-<p>
-Sample line
-</p>
-<br />
-
-
-<p>
-Sample line
-</p>
-<br />
-
-
-<p>
-Sample line
-</p>
-<br />
-
-
-<p>
-Sample line
-</p>
-<br />
-
 
 <h2>Success!</h2>
