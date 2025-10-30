@@ -33,7 +33,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 
 <p>
-Create a Resourse Group, Virtual Network and Subnet
+Create a Resourse Group, Virtual Network and Subnet.
 </p>
 <br />
 
@@ -52,7 +52,7 @@ Create a Domain Controller Virtual Machine with the Winders Server 2022 operatin
 
 
 <p>
-Create a Client Virtual Machine (Make sure to assign to the same region as the Domain Controller)
+Create a Client Virtual Machine (Make sure to assign to the same region as the Domain Controller).
 </p>
 <br />
 
@@ -61,7 +61,7 @@ Create a Client Virtual Machine (Make sure to assign to the same region as the D
 
 
 <p>
-Set NIC private IP Address of the Domain Controller to Static. This ensure the private IP address never changes. 
+Set NIC private IP Address of the Domain Controller to Static. This ensures the private IP address never changes. 
 </p>
 <br />
 
@@ -79,7 +79,7 @@ Set DNS Server of the Client to the private IP Address of the Domain Controller
 
 
 <p>
-Open Powershell and ping the IP Address of the Domain Controller from the Virtual Machine of the CLient. This ensures the machines are connected. 
+Open Powershell and ping the IP Address of the Domain Controller from the Virtual Machine of the Client. This ensures the machines are connected. 
 </p>
 <br />
 
@@ -88,18 +88,12 @@ Open Powershell and ping the IP Address of the Domain Controller from the Virtua
 
 
 <p>
-Run ipconfig/all to verify the DNS server matches the Domain Controller
+Run ipconfig/all to verify the DNS server matches the Domain Controller.
 </p>
 <br />
 
 
-![4-5](https://github.com/user-attachments/assets/cb592a19-5f48-4758-8b8a-e5bba816fa6c)
+![4-5](https://github.com/user-attachments/assets/078a55bc-c4f1-482f-9e2f-57efdfb2e6b7)
 
 
 <h2>Success!</h2>
-
-
-<p>
-Sample line
-</p>
-<br />
