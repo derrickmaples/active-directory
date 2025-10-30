@@ -100,16 +100,21 @@ Run ipconfig/all to verify the DNS server matches the Domain Controller.
 
 
 <p>
-Sample line
+Install Active Directory Domain Services
 </p>
 <br />
+
+
+![4-6](https://github.com/user-attachments/assets/3871b434-9887-4e98-a6e4-a36a15b0af32)
 
 
 <p>
-Sample line
+Promote the Server to a Domain Controller
 </p>
 <br />
 
+
+![4-7](https://github.com/user-attachments/assets/75a20f68-2d3c-42a9-b787-5cab6943175e)
 
 <p>
 Sample line
