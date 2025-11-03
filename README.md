@@ -42,6 +42,7 @@ Create a Resourse Group, Virtual Network and Subnet.
 
 
 ![4-1a](https://github.com/user-attachments/assets/d1086edd-4957-4def-8ab3-9710f653a009)
+________________________________________________________________________________________
 ![4-1](https://github.com/user-attachments/assets/449425f9-4e98-48f5-8cc0-fc1778b4bb81)
 
 
